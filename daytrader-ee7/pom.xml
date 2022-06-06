@@ -78,17 +78,6 @@
             </configuration>
         </plugin>
          <plugin>
-            <groupId>io.openliberty.tools</groupId>
-            <artifactId>liberty-maven-plugin</artifactId>
-            <version>3.3.4</version>
-            <configuration>
-              <bootstrapProperties>
-                <default.http.port>${testServerHttpPort}</default.http.port>
-                <default.https.port>${testServerHttpsPort}</default.https.port>
-              </bootstrapProperties>
-            </configuration>
-         </plugin>
-         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
             <version>3.1.2</version>
